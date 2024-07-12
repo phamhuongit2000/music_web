@@ -1,5 +1,5 @@
 const config = {
-    serverDomain: '/api'
+    serverDomain: 'https://baomatlang.ecabinet.vn/api'
 };
   
 export default config;

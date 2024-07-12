@@ -1,9 +1,8 @@
 {
-  "homepage": "/",
+  "homepage": ".",
   "name": "music_player",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://lovemusic-dev.eba-b9p9cpex.ap-southeast-1.elasticbeanstalk.com/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",

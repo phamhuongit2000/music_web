@@ -24,26 +24,26 @@ function App() {
   return (
     <div className='app'>
       <Routes>
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
-        <Route path='/registerVip' element={<RegisterVip />} />
-        <Route path='/' element={<Home />} />
-        <Route path='/songs' element={<Songs />} />
-        <Route path='/singer' element={<Singer />} />
-        <Route path='/albums' element={<Albums />} />
-        <Route path='/homeUser' element={<HomeUser />} />
-        <Route path='/top100' element={<Top100 />} />
-        <Route path='/userInfo' element={<UserInfo />} />
-        <Route path='/singerInfo' element={<SingerInfo />} />
-        <Route path='/albumInfo' element={<AlbumInfo />} />
-        <Route path='/search' element={<Search />} />
-        <Route path='/history' element={<History />} />
+        <Route path='/music_web/login' element={<Login />} />
+        <Route path='/music_web/register' element={<Register />} />
+        <Route path='/music_web/registerVip' element={<RegisterVip />} />
+        {/* <Route path='/' element={<Home />} /> */}
+        <Route path='/music_web/songs' element={<Songs />} />
+        <Route path='/music_web/singer' element={<Singer />} />
+        <Route path='/music_web/albums' element={<Albums />} />
+        <Route path='/music_web/homeUser' element={<HomeUser />} />
+        <Route path='/music_web/top100' element={<Top100 />} />
+        <Route path='/music_web/userInfo' element={<UserInfo />} />
+        <Route path='/music_web/singerInfo' element={<SingerInfo />} />
+        <Route path='/music_web/albumInfo' element={<AlbumInfo />} />
+        <Route path='/music_web/search' element={<Search />} />
+        <Route path='/music_web/history' element={<History />} />
         <Route path='/music_web' element={<Home />} />
 
-        <Route path='/adminSongs' element={<AdminSong />} />
-        <Route path='/adminSinger' element={<AdminSinger />} />
-        <Route path='/adminAlbum' element={<AdminAlbum />} />
-        <Route path='/adminAlbumInfo' element={<AdminAlbumInfo />} />
+        <Route path='/music_web/adminSongs' element={<AdminSong />} />
+        <Route path='/music_web/adminSinger' element={<AdminSinger />} />
+        <Route path='/music_web/adminAlbum' element={<AdminAlbum />} />
+        <Route path='/music_web/adminAlbumInfo' element={<AdminAlbumInfo />} />
       </Routes>
     </div>
   );

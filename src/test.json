@@ -1,0 +1,137 @@
+{
+    "category": [
+        {
+          "name": "Tâm trạng và hoạt động",
+          "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+          "id": 1,
+          "listsubcategory": [
+            {
+              "name": "Chơi game",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 1,
+              "listsong": [
+                1, 2, 3, 4, 5, 6, 7, 8
+              ]
+            },
+            {
+              "name": "Tiệc tùng",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 2,
+              "listsong": [
+                1, 2, 3, 4, 5, 6, 7, 8
+              ]
+            },
+            {
+              "name": "Thư giãn",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 3,
+              "listsong": [
+                1, 2, 3, 4, 5, 6, 7, 8
+              ]
+            },
+            {
+              "name": "Tập chung",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 4,
+              "listsong": [
+                1, 2, 3, 4, 5, 6, 7, 8
+              ]
+            },
+            {
+              "name": "Giai điệu buồn",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 5,
+              "listsong": [
+                1, 2, 3, 4, 5, 6, 7, 8
+              ]
+            },
+            {
+              "name": "Khúc nhạc vui",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 6,
+              "listsong": [
+                1, 2, 3, 4, 5, 6, 7, 8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quốc gia",
+          "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+          "id": 2,
+          "listsubcategory": [
+            {
+              "name": "Nhạc Việt",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 1,
+              "listsong": [
+                9, 10, 11, 12, 13, 14, 15, 16
+              ]
+            },
+            {
+              "name": "Nhạc Âu Mĩ",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 2,
+              "listsong": [
+                9, 10, 11, 12, 13, 14, 15, 16
+              ]
+            },
+            {
+              "name": "Nhạc Hàn",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 3,
+              "listsong": [
+                9, 10, 11, 12, 13, 14, 15, 16
+              ]
+            },
+            {
+              "name": "Nhạc Trung Hoa",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 4,
+              "listsong": [
+                9, 10, 11, 12, 13, 14, 15, 16
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Độ tuổi",
+          "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+          "id": 2,
+          "listsubcategory": [
+            {
+              "name": "Nhạc thiếu nhi",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 1,
+              "listsong": [
+                17, 18, 19, 20, 21, 22, 23, 24
+              ]
+            },
+            {
+              "name": "Nhạc trẻ",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 2,
+              "listsong": [
+                17, 18, 19, 20, 21, 22, 23, 24
+              ]
+            },
+            {
+              "name": "Nhạc cạch mạng",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 3,
+              "listsong": [
+                17, 18, 19, 20, 21, 22, 23, 24
+              ]
+            },
+            {
+              "name": "Trữ Tình & Bolero",
+              "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+              "id": 4,
+              "listsong": [
+                17, 18, 19, 20, 21, 22, 23, 24
+              ]
+            }
+          ]
+        }
+      ]
+}

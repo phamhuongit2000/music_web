@@ -1,0 +1,563 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Phạm Văn Hưởng",
+      "email": "huong@gmail.com",
+      "phoneNumber": "0398494251",
+      "password": "123456",
+      "role": "user",
+      "level": "vip"
+    },
+    {
+      "id": 2,
+      "name": "Admin",
+      "email": "admin",
+      "phoneNumber": "admin",
+      "password": "123456",
+      "role": "admin",
+      "level": "vip"
+    },
+    {
+      "id": 3,
+      "name": "Đỗ Duy Hưng",
+      "email": "hung@gmail.com",
+      "phoneNumber": "0398494251",
+      "password": "123456",
+      "role": "user",
+      "level": "normal"
+    }
+  ],
+  "songs": [
+    {
+      "name": "Yêu thì nói",
+      "singgerId": 1,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664150369/project2/shglkmpu34wsdurfh38j.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239929/project2/song1_uzistc.jpg",
+      "vip": "Normal",
+      "id": 1
+    },
+    {
+      "name": "Có chơi có chịu",
+      "singgerId": 1,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151554/project2/motkjcm817mujlsfszyi.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239929/project2/song12_sp35pq.jpg",
+      "vip": "Normal",
+      "id": 2
+    },
+    {
+      "name": "Từng là của nhau",
+      "singgerId": 1,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239908/project2/song7_frnnbc.jpg",
+      "vip": "Vip",
+      "id": 3
+    },
+    {
+      "name": "Mưa rơi",
+      "singgerId": 1,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239929/project2/song11_z59pcr.jpg",
+      "vip": "Normal",
+      "id": 4
+    },
+    {
+      "name": "Em ngồi khóc",
+      "singgerId": 2,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239929/project2/song13_z0spn3.jpg",
+      "vip": "Normal",
+      "id": 5
+    },
+    {
+      "name": "Anh em ta ơi",
+      "singgerId": 2,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song2_h5eknv.jpg",
+      "vip": "Normal",
+      "id": 6
+    },
+    {
+      "name": "Mùa hè sôi động",
+      "singgerId": 2,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239929/project2/song15_ftt9bq.jpg",
+      "vip": "Normal",
+      "id": 7
+    },
+    {
+      "name": "Cứ vui thôi",
+      "singgerId": 2,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239929/project2/song16_wpyvan.jpg",
+      "vip": "Normal",
+      "id": 8
+    },
+    {
+      "name": "Từng là bạn",
+      "singgerId": 3,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song17_pypx8k.jpg",
+      "vip": "Normal",
+      "id": 9
+    },
+    {
+      "name": "Chiến nào",
+      "singgerId": 3,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song3_ccvpxu.jpg",
+      "vip": "Normal",
+      "id": 10
+    },
+    {
+      "name": "Quẩy lên",
+      "singgerId": 3,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song6_fnljoz.jpg",
+      "vip": "Normal",
+      "id": 11
+    },
+    {
+      "name": "Hoa tàn",
+      "singgerId": 3,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song7_drubti.jpg",
+      "vip": "Normal",
+      "id": 12
+    },
+    {
+      "name": "Mật ong mùa đông",
+      "singgerId": 4,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song4_l3gy7m.jpg",
+      "vip": "Normal",
+      "id": 13
+    },
+    {
+      "name": "Lá thu vàng",
+      "singgerId": 4,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song5_p5sfdq.jpg",
+      "vip": "Normal",
+      "id": 14
+    },
+    {
+      "name": "Chị em",
+      "singgerId": 4,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239928/project2/song8_vpz8sl.jpg",
+      "vip": "Normal",
+      "id": 15
+    },
+    {
+      "name": "Đôi ta là gì",
+      "singgerId": 4,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239910/project2/song15_vroine.jpg",
+      "vip": "Normal",
+      "id": 16
+    },
+    {
+      "name": "Hết sẩy",
+      "singgerId": 5,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239910/project2/song11_ieyc6n.jpg",
+      "vip": "Normal",
+      "id": 17
+    },
+    {
+      "name": "Khóc cười",
+      "singgerId": 5,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239910/project2/song1_vwkpzc.jpg",
+      "vip": "Normal",
+      "id": 18
+    },
+    {
+      "name": "Đi chơi thôi",
+      "singgerId": 5,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239910/project2/song12_btawuj.jpg",
+      "vip": "Normal",
+      "id": 19
+    },
+    {
+      "name": "Chú cháu",
+      "singgerId": 5,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239910/project2/song14_otznsw.jpg",
+      "vip": "Normal",
+      "id": 20
+    },
+    {
+      "name": "Như cơn mưa thoáng qua",
+      "singgerId": 5,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239909/project2/song16_bv769z.jpg",
+      "vip": "Normal",
+      "id": 21
+    },
+    {
+      "name": "Tình dang dở",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239909/project2/song17_xtu2bo.jpg",
+      "vip": "Normal",
+      "id": 22
+    },
+    {
+      "name": "Hết tiền rồi",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239909/project2/song20_lm9vrp.jpg",
+      "vip": "Normal",
+      "id": 23
+    },
+    {
+      "name": "Phải chi ta chưa từng gặp nhau",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239909/project2/song3_ipc0gg.jpg",
+      "vip": "Normal",
+      "id": 24
+    },
+    {
+      "name": "Đừng nghịch nữa",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239909/project2/song18_aotfz1.jpg",
+      "vip": "Normal",
+      "id": 25
+    },
+    {
+      "name": "Vui lên anh em",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239909/project2/song19_fnxnra.jpg",
+      "vip": "Normal",
+      "id": 26
+    },
+    {
+      "name": "Lần đầu chơi thuốc",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239909/project2/song2_gtkmkk.jpg",
+      "vip": "Normal",
+      "id": 27
+    },
+    {
+      "name": "Sai lầm của anh",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239908/project2/song6_ymmyba.jpg",
+      "vip": "Normal",
+      "id": 28
+    },
+    {
+      "name": "Quạt mùa đông",
+      "singgerId": 6,
+      "path": "http://res.cloudinary.com/huong-pham-van/video/upload/v1664151642/project2/l0yag17kexrk2smm7u0o.mp3",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239908/project2/song4_dgcm5h.jpg",
+      "vip": "Normal",
+      "id": 29
+    }
+  ],
+  "singers": [
+    {
+      "name": "Jack - J97",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664240454/project2/artist1_rtbagf.jpg",
+      "introduce": "Là một ca sĩ, rapper rất được giới trẻ yêu thích nhờ chất giọng miền Tây cộng với khả năng kết hợp giữa Rap với các thể loại nhạc khác, bài hát tiêu biểu có thể kể đến Hồng Nhan và Sóng Gió",
+      "id": 1
+    },
+    {
+      "name": "Đức Phúc",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664240454/project2/artist10_ouky4r.jpg",
+      "introduce": "Đức Phúc là Quán quân Giọng hát Việt mùa 3 đồng thời là sinh viên trường Đại học Xây dựng Hà Nội. Hiện anh đang hoạt động nghệ thuật với vai trò ca sĩ do công ty Mỹ Tâm Entertainment quản lý.",
+      "id": 2
+    },
+    {
+      "name": "ERIK",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664240453/project2/artist5_q2jxx7.jpg",
+      "introduce": "Lê Trung Thành được biết tới với nghệ danh Erik là một ca sĩ và vũ công. Erik từng tham gia chương trình Giọng hát Việt nhí năm 2013 và sau đó trở thành thành viên nhóm nhạc Monstar.",
+      "id": 3
+    },
+    {
+      "name": "Karik",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664240453/project2/artist6_qxzuwl.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV Việt Nam.",
+      "id": 4
+    },
+    {
+      "name": "Mr. Siro",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664240453/project2/artist4_zjutb6.jpg",
+      "introduce": "Các sáng tác của Mr Siro luôn được đón nhận nồng nhiệt, do nội dung luôn về tình yêu tan vỡ nên anh được người hâm mộ đặt cho danh hiệu Thánh Nhạc Sầu",
+      "id": 5
+    },
+    {
+      "name": "Hương Ly",
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664240453/project2/artist7_fqoxih.jpg",
+      "introduce": "Cô nàng Nguyễn Hương Ly hiện đang sở hữu những bản cover “làm mưa làm gió” trên mạng xã hội với hàng triệu lượt nghe, cô được những người yêu mến đặt biệt danh là Ngọc Nữ cover",
+      "id": 6
+    }
+  ],
+  "albums": [
+    {
+      "name": "Phải lòng",
+      "id": 1,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239673/project2/album12_ar2xf5.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "Tự tình",
+      "id": 2,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239673/project2/album12_x6ntdg.png",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "name": "Ngày qua ngày",
+      "id": 3,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239673/project2/album10_ugrxxz.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Mùa hè vui",
+      "id": 4,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239673/project2/album1_axc9ei.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        25,
+        26,
+        27,
+        28,
+        6,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Quẩy lên nào",
+      "id": 5,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239673/project2/album11_g9oy2n.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        1,
+        2,
+        19,
+        3,
+        6,
+        9,
+        23,
+        10
+      ]
+    },
+    {
+      "name": "Quyết tâm",
+      "id": 6,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239672/project2/album15_wv0mj5.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Chúng ta là bạn",
+      "id": 7,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239672/project2/album13_fwx0zj.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Cuộc sống về đêm",
+      "id": 8,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239672/project2/album2_krypeo.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Cuộc sống ban ngày",
+      "id": 9,
+      "image": "https://res.cloudinary.com/huong-pham-van/image/upload/v1664239672/project2/album7_as9mlh.jpg",
+      "introduce": "Năm 2012 anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV.",
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  ],
+  "top100": [
+    {
+      "name": "Top 100 nhạc trẻ",
+      "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+      "introduce": "Top 100 Nhạc là danh sách 100 ca khúc hot nhất hiện tại của thể loại, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.",
+      "id": 1,
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Top 100 nhạc Việt",
+      "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+      "introduce": "Top 100 Nhạc là danh sách 100 ca khúc hot nhất hiện tại của thể loại, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.",
+      "id": 2,
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Top 100 nhạc Âu Mĩ",
+      "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+      "introduce": "Top 100 Nhạc là danh sách 100 ca khúc hot nhất hiện tại của thể loại, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.",
+      "id": 3,
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Top 100 nhạc Trung Hoa",
+      "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+      "introduce": "Top 100 Nhạc là danh sách 100 ca khúc hot nhất hiện tại của thể loại, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.",
+      "id": 4,
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Top 100 nhạc trữ tình",
+      "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+      "introduce": "Top 100 Nhạc là danh sách 100 ca khúc hot nhất hiện tại của thể loại, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.",
+      "id": 5,
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Top 100 nhạc thiếu nhi",
+      "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+      "introduce": "Top 100 Nhạc là danh sách 100 ca khúc hot nhất hiện tại của thể loại, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.",
+      "id": 6,
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Top 100 nhạc cách mạng",
+      "image": "http://res.cloudinary.com/huong-pham-van/image/upload/v1664150369/project2/zch0s1htx9smva7wq1vx.jpg",
+      "introduce": "Top 100 Nhạc là danh sách 100 ca khúc hot nhất hiện tại của thể loại, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.",
+      "id": 7,
+      "listsong": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  ]
+}

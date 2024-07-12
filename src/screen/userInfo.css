@@ -1,0 +1,17 @@
+.info-group {
+    font-size: 24px;
+    margin: 40px;
+}
+
+.info-group-item {
+    display: flex;
+    justify-content: left;
+}
+
+.info-title {
+    min-width: 200px;
+}
+
+.info-content {
+
+}

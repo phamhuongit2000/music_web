@@ -38,6 +38,7 @@ function App() {
         <Route path='/albumInfo' element={<AlbumInfo />} />
         <Route path='/search' element={<Search />} />
         <Route path='/history' element={<History />} />
+        <Route path='/music_web' element={<Home />} />
 
         <Route path='/adminSongs' element={<AdminSong />} />
         <Route path='/adminSinger' element={<AdminSinger />} />
